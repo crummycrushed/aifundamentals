@@ -13,3 +13,9 @@ with open("data.json", "w", newline="\n") as f:
 
 
 # dump this dict data into the open file f as json 
+
+
+with open("data.json", "r") as f:
+    loaded_data = json.load(f)
+
+print(loaded_data)
